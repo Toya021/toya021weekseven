@@ -18,6 +18,7 @@
   }
   h1{
       color: #9553ff;
+      text-shadow: 2px 2px 4px #000000;
       font-size: 80px;
       font-weight: bolder;
       position: relative;
@@ -57,7 +58,8 @@
           font-style: italic;
           position:fixed;
           left: 230px;
-          top: 70px;
+          top: 110px;
+          text-shadow: 2px 2px 4px #000000;
       }
       .city-input {
           color: #9553ff;
@@ -74,11 +76,12 @@
           }
     
       .celcius{color: #FF1E78;
+        text-shadow: 2px 2px 4px #000000;
           position: fixed;
           font-size:60px;
           font-weight:600;
           font-style: italic;
-          top: 100px;
+          top: 140px;
       left: 340px;}
   
           .temperature{font-size: 45px;
@@ -87,7 +90,7 @@
     
           #city-input.form-control.shadow-sm {position: relative; top:-80px; color: #04c3ff; width:400px; height: 50px;}
           #search.form-control.btn.btn-primary.shadow-sm {position: relative; top:-80px;background-color:  #c21c5e; width:200px; border:none;}
-          #the-day {position: relative; right:-15px; top: 100px;}
+          #the-day {position: relative; right:-15px; top: 100px; font-size: 40px;}
 
           footer{font-size: 17px;
         position: fixed;
@@ -95,12 +98,15 @@
      right:50px;
     }
 
-          a{color: #FF1E78;
+          a{color: #04c3ff;
         font-weight: 600;
+        text-decoration: none;
     font-style: italic;}
+
     .search-form{position: relative;
     left:10px;
     top: 60px;}
+    
     
     .description{
         position: relative;
@@ -112,12 +118,14 @@
         height: 250px;
         left: -350px;
         top: -80px;
+        filter: drop-shadow(5px 5px black);
     }
 #text{
     position:absolute;
     top:200px;
     left: 90px;
     color: #FF1E78;
+    text-shadow: 2px 2px 4px #000000;
     font-weight: 600;
     font-size: 30px;
 }

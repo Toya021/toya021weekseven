@@ -10,7 +10,7 @@
       text-align: center;
   }
   .weather-app{
-    background-image:url(skylinepink.png);
+    background-image:url(skylinepink.png);opacity: 0.9;
     max-width: 1000px;
     height: 500px;
   }
@@ -55,7 +55,7 @@
           font-style: italic;
           position:fixed;
           left: 230px;
-          top: 70px;
+          top: 10px;
       }
       .city-input {
           color: #9553ff;
@@ -76,7 +76,7 @@
           font-size:60px;
           font-weight:600;
           font-style: italic;
-          top: 140px;
+          top: 50px;
       left: 340px;}
   
           .temperature{font-size: 45px;

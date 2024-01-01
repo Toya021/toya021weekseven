@@ -106,16 +106,15 @@
     }
     .weather-app-icon{
         position: relative;
-        width: 300px;
-        height: 300px;
+        width: 250px;
+        height: 250px;
         left: -350px;
         top: -80px;
     }
-   
 #text{
     position:absolute;
     top:200px;
-    left: 100px;
+    left: 90px;
     color: #FF1E78;
     font-weight: 600;
     font-size: 30px;

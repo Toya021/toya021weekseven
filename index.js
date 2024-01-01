@@ -30,9 +30,14 @@ function refreshWeather(response) {
   descriptionElement.innerHTML = response.data.condition.description;
   let iconElement = document.querySelector("#icon");
   iconElement.innerHTML = `<img src="${response.data.condition.icon_url}"class="weather-app-icon"/>`;
+
+  if (minutes < 10) {
+    minutes = `0${minutes}`;
+  }
+
 }
 function searchCity(city) {
-  let apiKey = "b2a5adcct04b33178913oc335f405433";
+  let apiKey = "3oe104ta9fb0de8314f715a9bb031983";
   let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric`;
   axios.get(apiUrl).then(refreshWeather);
 }
